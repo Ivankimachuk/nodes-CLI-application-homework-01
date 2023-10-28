@@ -8,7 +8,7 @@ async function listContacts() {
     const data = await fs.readFile(contactsPath, 'utf-8')
     console.log(listContacts);
 }
-listContacts()
+listContacts();
 
 // /*
 //  * Розкоментуй і запиши значення
